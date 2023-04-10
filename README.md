@@ -1,4 +1,2 @@
 # Online-Store_WebSite
- image.png
- image.png
- image.png
+<img src="D:\Колледж\Учебная_Практика\Online-Store_WebSite\site1"/>
