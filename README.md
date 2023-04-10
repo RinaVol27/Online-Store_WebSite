@@ -1,2 +1,2 @@
 # Online-Store_WebSite
-<img src="D:\Колледж\Учебная_Практика\Online-Store_WebSite\site1"/>
+<img src="https://github.com/RinaVol27/Online-Store_WebSite/blob/main/site1.png?raw=true"/>
