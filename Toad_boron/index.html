@@ -3,7 +3,105 @@
     <head>
         <title>Title</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="index.css">
+
+        <style>
+            h1 {
+    color:black;
+    font-size: 100px;
+}
+
+body{
+    margin: 0
+}
+
+div{
+    padding: 50px;
+    text-align: center;
+    background: #556B2F;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #D2B48C;
+    padding: 2px;
+    text-align: center;
+}
+.navbar a {
+    white-space: nowrap;
+    
+    color:#556B2F;
+    text-align: center;
+    padding: 9px 100px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbar a:hover{
+    background-color: beige;
+    color: #556B2F;
+}
+.fakeimg {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    background-color: #F5DEB3;
+}
+.main{
+    flex: 50%;
+    background-color: #F5DEB3;
+    padding: 60px;
+}
+.side{
+    flex: 50%;
+    background-color: #F5DEB3;
+    padding: 60px;
+}
+.tx{
+    color: #556B2F;
+}
+.txe{
+    color: #556B2F;
+    text-align: left;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: darkslategrey;
+    color:#D2B48C;
+    font-size: 20px;
+}
+
+.primer{
+    background-color: darkslategrey;
+    padding: 2px;
+    height: 80px;
+}
+.t{
+    color: #D2B48C;
+    font-size: 30px;
+    margin: 20px;
+    padding: 1px;
+}
+
+@media screen and (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px){
+    .navbar a{
+        float: none;
+        width: 100%;
+    }
+}
+    
+        </style>
     </head>
 
     <body>
