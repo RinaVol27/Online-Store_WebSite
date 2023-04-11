@@ -22,17 +22,15 @@ div{
     text-align: center;
 }
 .navbar a {
-    float: left;
-    display: block;
+    white-space: nowrap;
+    
     color:#556B2F;
     text-align: center;
     padding: 9px 100px;
     text-decoration: none;
     text-align: center;
 }
-.navbar a.right{
-    float: right;
-}
+
 
 .navbar a:hover{
     background-color: beige;
@@ -67,9 +65,21 @@ div{
 .footer {
     padding: 20px;
     text-align: center;
-    background: black;
+    background: darkslategrey;
     color:#D2B48C;
     font-size: 20px;
+}
+
+.primer{
+    background-color: darkslategrey;
+    padding: 2px;
+    height: 80px;
+}
+.t{
+    color: #D2B48C;
+    font-size: 30px;
+    margin: 20px;
+    padding: 1px;
 }
 
 @media screen and (max-width: 700px){
