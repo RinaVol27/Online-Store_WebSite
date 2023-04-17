@@ -50,9 +50,19 @@
             .hh{
                 padding: 0px 50px;
             }
+            .row-grid{
+                padding: 20px;
+                display: grid;
+                gap: 50px;
+                align-items: center;
+                grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            }
         </style>
     </head>
     <body>
+        <div id="products-list">
+
+        </div>
         <div class="card">
             <img scr="url" alt="Denim Jeans" style="width: 100%;">
             <h1>Name</h1>
@@ -62,9 +72,6 @@
         </div>
         <div class="footer">
             <h2 class="hh">VK:</br>@toad_boron</br>@vol_rina</br>Phone:</br>977 427-28-03</br>Email:</br>volarmak@gmail.com</h2>
-        </div>
-        <div id="products-list">
-
         </div>
         <script src="product_card.js"></script>
     </body>

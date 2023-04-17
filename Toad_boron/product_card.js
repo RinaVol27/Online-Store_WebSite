@@ -10,22 +10,22 @@ async function getAllProducts(){
     var data = await result.json();
     for (let i=0; i < data.lenght; i++){
         console.log(data[i]);
-        /*addProductCard(data[i]);*/
+        addProductCard(data[i]);
     }
 }
-/*function addProductCard(product){
+function addProductCard(product){
     let list = document.getElementById('products-list');
 
     let card = document.createElement('div');
     card.className = "card";
 
     card.innerHTML = '<img src="' + product.url + '"alt="Denim Jeans" style="width:100%>' +
-    '<h1>' + product.productName + '</h1>' +
-    '<p class="price">' + product.price + '</p>' +
-    '<p>' + product.information + '</p>' +
-    '<p><button>Add to Cart</button></p>'
+       '<h1>' + product.Name + '</h1>' +
+       '<p class="price">' + product.price + '</p>' +
+       '<p>' + product.Description + '</p>' +
+       '<p><button>Add to Cart</button></p>'
 
     list.appendChild(card);
-}*/
+}
 
 getAllProducts();
