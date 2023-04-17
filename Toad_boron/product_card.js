@@ -10,10 +10,10 @@ async function getAllProducts(){
     var data = await result.json();
     for (let i=0; i < data.lenght; i++){
         console.log(data[i]);
-        addProductCard(data[i]);
+        /*addProductCard(data[i]);*/
     }
 }
-function addProductCard(product){
+/*function addProductCard(product){
     let list = document.getElementById('products-list');
 
     let card = document.createElement('div');
@@ -26,6 +26,6 @@ function addProductCard(product){
     '<p><button>Add to Cart</button></p>'
 
     list.appendChild(card);
-}
+}*/
 
 getAllProducts();
