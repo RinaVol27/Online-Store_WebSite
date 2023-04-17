@@ -12,3 +12,5 @@ async function getAllProducts(){
         console.log(data[i]);
     }
 }
+
+getAllProducts();
