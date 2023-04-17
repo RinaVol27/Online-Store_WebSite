@@ -1,5 +1,5 @@
 async function getAllProducts(){
-    var result = await fetch("https://localhost:7003/api/Product");
+    var result = await fetch("product_card");
     console.log(result);
 
     if (result.status !== 200){
