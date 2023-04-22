@@ -19,13 +19,14 @@ function addProductCard(product){
     let card = document.createElement('div');
     card.className = "card";
 
-    card.innerHTML = '<img src="' + product.url + '"alt="Denim Jeans" style="width:100%>' +
-       '<h1>' + product.Name + '</h1>' +
+    card.innerHTML = '<img src="' + product.imagePr + '"alt="Denim Jeans" style="width:100%>' +
+       '<h1>' + product.productName + '</h1>' +
        '<p class="price">' + product.price + '</p>' +
-       '<p>' + product.Description + '</p>' +
+       '<p>' + product.information + '</p>' +
        '<p><button>Add to Cart</button></p>'
 
     list.appendChild(card);
 }
 
 getAllProducts();
+addProductCard(product);
