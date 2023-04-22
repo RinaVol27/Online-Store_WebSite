@@ -29,4 +29,4 @@ function addProductCard(product){
 }
 
 getAllProducts();
-addProductCard(product);
+
