@@ -30,3 +30,4 @@ function addProductCard(product){
 
 getAllProducts();
 
+
