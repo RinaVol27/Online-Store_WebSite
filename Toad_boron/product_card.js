@@ -8,7 +8,7 @@ async function getAllProducts(){
     }
 
     var data = await result.json();
-    for (let i=0; i < data.lenght; i++){
+    for (let i=0; i < data.length; i++){
         console.log(data[i]);
         addProductCard(data[i]);
     }
