@@ -19,7 +19,7 @@ function addProductCard(product){
     let card = document.createElement('div');
     card.className = "card";
 
-    card.innerHTML = '<img src="' + product.imagePr + '"alt="Denim Jeans" style="width:100%>' +
+    card.innerHTML = '<img class="iii"src="' + product.imagePr + '"alt="Denim Jeans" style="width:100%>' +
        '<h1>' + product.productName + '</h1>' +
        '<p class="price">' + product.price + '</p>' +
        '<p>' + product.information + '</p>' +
