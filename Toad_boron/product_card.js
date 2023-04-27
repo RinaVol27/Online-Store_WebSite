@@ -23,7 +23,7 @@ function addProductCard(product){
        '<h1>' + product.productName + '</h1>' +
        '<p class="price">' + product.price + '</p>' +
        '<p>' + product.information + '</p>' +
-       '<p><button>Add to Cart</button></p>'
+       '<p><button class="bbb">Add to Cart</button></p>'
 
     list.appendChild(card);
 }
