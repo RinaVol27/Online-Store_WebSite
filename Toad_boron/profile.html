@@ -15,24 +15,59 @@ h1{
     text-align: center;
 }
 .anketa{
-    padding: 5px; 
+    padding: 15px; 
+    flex: 50%;
 }
 .main{
     font-size: 25px;
     margin: 0px;
 }
+.round {
+    width: 15%;
+    border-radius: 500px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .row{
+    display: flex;
+   }
+   .footer {
+                padding: 0px;
+                text-align: center;
+                background: black;
+                color:#cfbfa0;
+                font-size: 20px;
+                position: absolute;
+	            left: 0;
+	            bottom: 0;
+	            width: 100%;
+	            height: 300px;
+                margin: 0;
+            }
         </style>
     </head>
     <body>
         <div class="profile">
             <h1>Your profile</h1>
         </div>
-        <div class="anketa">
-            <p class="main"><b>Your Name:</b></p>
-            <p>Bla....</p></br>
-            <p class="main"><b>Email:</b></p>
-            <p>Bla-bla-bla...</p>
+        <div class="row">
+            <div id="users-list" class="anketa">
+
+            </div>
+            <!-- <div class="anketa">
+                <p class="main"><b>Your Name:</b></p>
+                <p>Bla....</p></br>
+                <p class="main"><b>Email:</b></p>
+                <p>Bla-bla-bla...</p>
+            </div> -->
+            <img src="https://luxe-host.ru/wp-content/uploads/5/9/d/59d592bd0b7b8f338936ac49e939ffda.png" alt="profile picture" class="round"/>
         </div>
+        <div class="footer">
+            <h2 class="hh">VK:</br>@toad_boron</br>@vol_rina</br>Phone:</br>977 427-28-03</br>Email:</br>volarmak@gmail.com</h2>
+        </div>
+        <script src="profile.js"></script>
     </body>
 
 </html>
